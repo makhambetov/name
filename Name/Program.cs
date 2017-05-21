@@ -10,6 +10,11 @@ namespace Name
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Введите ваше ФИО:");
+            string name = Console.ReadLine();
+            Console.WriteLine("Приетствую тебя, " + name + "!");
+
+            Console.ReadKey();
         }
     }
 }
